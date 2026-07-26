@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"start": "node ./src/main.mjs",
+		"list-devices": "node ./src/list-mididevices.mjs"
+	},
+	"dependencies": {
+		"node-osc": "^11.6.0",
+		"webmidi": "^3.1.16"
+	}
+}
